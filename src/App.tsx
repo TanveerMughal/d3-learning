@@ -1,7 +1,7 @@
-import ChrismasTree from "./ChrismasTree";
+import GingerBreadFigure from "./GingerBreadFigure";
 
 function App() {
-  return <ChrismasTree />;
+  return <GingerBreadFigure />;
 }
 
 export default App;
