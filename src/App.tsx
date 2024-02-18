@@ -1,7 +1,7 @@
-import GingerBreadFigure from "./GingerBreadFigure";
+import LearningViewBox from "./LearningViewBox";
 
 function App() {
-  return <GingerBreadFigure />;
+  return <LearningViewBox />;
 }
 
 export default App;

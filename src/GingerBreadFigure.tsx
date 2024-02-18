@@ -23,7 +23,22 @@ function GingerBreadFigure() {
           strokeWidth="0.5"
           strokeLinecap="round"
           rx={0.5}
-        />
+        >
+          {/* animate rx */}
+
+          <animate
+            attributeName="rx"
+            values="0;1;0"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+          <animate
+            attributeName="height"
+            values="1;0;1"
+            dur="1s"
+            repeatCount="indefinite"
+          />
+        </rect>
         <line
           x1="42"
           y1="27"
