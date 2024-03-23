@@ -1,7 +1,7 @@
-import LearningViewBox from "./LearningViewBox";
+import SvgArcs from "./SvgArcs";
 
 function App() {
-  return <LearningViewBox />;
+  return <SvgArcs />;
 }
 
 export default App;
